@@ -1,0 +1,47 @@
+
+.content{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    left: 33%;
+    top:  450px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    flex-direction: column;
+ }
+ .text{
+     font-size: xx-large;
+     color: #e50914;
+     text-decoration-line: none;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
+ .parrafo{
+     color: #ffff;
+     font-size: larger;
+     text-align: center;
+ }
+
+ .resaltar{
+    color: #e50914;
+    text-decoration: none;
+ }
+@media ( max-width: 2000px){
+    .content{
+        width: 900px;
+        height: 300px;
+        position: relative;
+        left: 22%;
+        top:  320px;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: default;
+        flex-direction: column;
+     }
+    
+}
