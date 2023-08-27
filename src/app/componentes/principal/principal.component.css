@@ -1,17 +1,18 @@
+.portada-favorita{
+    height: 400px;
+    text-align: center;
 
+}
+.portada-favorita img{
+    height: 400px;
+}
 .content{
-   width: 900px;
-   height: 300px;
-   position: relative;
-   left: 33%;
-   right: 33%;
-   top:  450px;
 
    display: flex;
-   justify-content: center;
    align-items: center;
    cursor: default;
    flex-direction: column;
+   align-items: center;
 }
 .text{
     font-size: xx-large;
@@ -26,18 +27,3 @@
     font-size: larger;
 }
 
-@media ( max-width: 2000px){
-    .content{
-        width: 900px;
-        height: 300px;
-        position: relative;
-        left: 22%;
-        top:  320px;
-     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: default;
-        flex-direction: column;
-     }
-}

@@ -1,0 +1,27 @@
+.portada-favorita{
+    height: 600px;
+    margin-top: 5px;
+
+    text-align: center;
+    padding: 40px;
+}
+.desc-favorita{
+    color: #ffff;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.desc-favorita p{
+    font-size:  x-large;
+}
+
+.btn-Ver{
+    text-align: center;
+}
+
+.btn{
+    background-color: #e50914;
+    font-size: x-large;
+    margin-bottom: 30px;
+}

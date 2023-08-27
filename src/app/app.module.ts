@@ -7,6 +7,8 @@ import { MenuComponent } from './componentes/menu/menu.component';
 import { PrincipalComponent } from './componentes/principal/principal.component';
 import { PeliculasComponent } from './componentes/peliculas/peliculas.component';
 import { AboutComponent } from './componentes/about/about.component';
+import { MiFavoritoComponent } from './componentes/mi-favorito/mi-favorito.component';
+import { TrailerComponent } from './componentes/trailer/trailer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutComponent } from './componentes/about/about.component';
     MenuComponent,
     PrincipalComponent,
     PeliculasComponent,
-    AboutComponent
+    AboutComponent,
+    MiFavoritoComponent,
+    TrailerComponent
   ],
   imports: [
     BrowserModule,
